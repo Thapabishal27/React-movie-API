@@ -24,7 +24,7 @@ function App() {
       <h1>MOVIES AND SERIES</h1>
       <div className="search">
         <input
-          placeholder="search movies"
+          placeholder="search movies here...and Enter"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
         />
